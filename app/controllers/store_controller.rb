@@ -2,7 +2,7 @@ class StoreController < ApplicationController
 
   def index
     @categories = Category.all
-    @items = Item.avaliable_items
+    @items = Item.available_items
   end
 
 end
